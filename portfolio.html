@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    /* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333;
+    font-family: 'Roboto', sans-serif; /* Change to the 'Roboto' font */
+    line-height: 1.6;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #010401;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #b9a9d6;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 30px;
+   
+}
+
+nav ul li a:hover {
+    color: #bef108;
+}
+
+/* Homepage */
+#home {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #ff6f61; /* Attractive orange background */
+    color: #fff;
+   
+}
+
+#home img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 20px;
+    border: 4px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+#home img:hover {
+    transform: rotate(360deg);
+}
+
+#home h1 {
+    font-size: 80px; /* Increase font size */
+    margin-bottom: 10px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+#home p {
+    font-size: 20px; /* Increase font size */
+    color: #f7f7f7; /* Light gray text on the orange background */
+}
+
+/* Skills Section */
+#skills {
+    background-color: #ffefdb; /* Light orange background */
+    padding: 40px 0;
+}
+
+.skill {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skill img {
+    max-width: 50px;
+    margin-bottom: 10px;
+    filter: grayscale(50%);
+    transition: filter 0.3s ease;
+}
+
+.skill img:hover {
+    filter: grayscale(0%);
+}
+
+.skill p {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 0;
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+.project  {
+    background-color: #fff;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+.project h3 {
+    font-size: 30px; /* Increase font size */
+    margin: 10px 0;
+    color: #333;
+}
+
+.project p {
+    font-size: 22px; /* Increase font size */
+    color: #555;
+}
+
+.project a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    align-items: center;
+}
+
+.project a:hover {
+    color: #ff4f40;
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin-bottom: 20px;
+}
+
+#contact a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #ff4f40;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Additional styles for specific elements can be added here */
+
+
+
+</style>
+
+</head>
+<body>
+    <a href="Project1.html"></a>
+    <a href="Project2.html"></a>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home </a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <img src="profile.jpg.jpeg" alt="Alex's Profile Picture">
+            <h1>Hello, I'm Alex</h1>
+            <p>Welcome to my portfolio website. I'm a web developer passionate about creating innovative web experiences.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill">
+                <img src="html-icon.png" alt="HTML Icon">
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <img src="css-icon.png" alt="CSS Icon">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="js-icon.png" alt="JavaScript Icon">
+                <p>JavaScript</p>
+            </div>
+            <!-- Add more skills here -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3></h3>
+                <p>Description of Project.<p>
+                    Using modern HTML + CSS Principles, this onepage application is built without any JQuery or JS to start 
+                    off Once all the content is in place, JS & Jquery will be added to create animations and other cool effects. This site is mobile/Tablet/Desktop responsive with media queries to adjust content for screen sizing</p>
+                </p> <a href="project1.html">Learn more</a></p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg.png" alt="Project 2">
+                <h3>Project 2 Title</h3>
+                <p>Description of Project.<p>The goal in this project was to apply all the basic HTML & CSS functions the best way possible to wrap up all the knowledge acquired along the HTML & CSS section of Microverse Learning Program. It was built using Sass.</p> <a href="project2.html">Learn more</a></p>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me:</p>
+            <ul>
+                <li>Email: <a href=""mailto:alex@example.com"></a>alexg7503@gmail.com</a></li>
+                <li>Phone: +91 8688228491</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/alex">LinkedIn Profile</a></li>
+                <li>GitHub: <a href="https://github.com/alex">GitHub Profile</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Alex7503 - Web Developer Portfolio</p>
+    </footer>
+
+    <!-- Optional: Add JavaScript for additional interactivity -->
+
+</body>
+</html>
